@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.facerecognition">
+    package="com.example.projectpixer">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+   <!-- <uses-permission android:name="android.permission.CAMERA"/>-->
+
 
     <application
         android:allowBackup="true"
@@ -9,6 +17,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Home"/>
+        <activity android:name=".PrivacyAndPolicy" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".FaceDetectionFunction" />
+        <activity android:name=".FaceDetectionReport" />
+        <activity android:name=".FaceDetectionFunctionOption" />
+        <activity android:name=".ObjectFunctionResult" />
+        <activity android:name=".ExpressionReport" />
+        <activity android:name=".TextReport" />
+        <activity android:name=".ObjectReport" />
+        <activity android:name=".textFunctionOption" />
+        <activity android:name=".expressionFunctionOption" />
+        <activity android:name=".textFunction" />
+        <activity android:name=".expressionFunction" />
+        <activity android:name=".ObjectFunctionOption" />
+        <activity android:name=".ObjectFunction" />
+        <activity android:name=".SelectFunction" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,9 +43,19 @@
         </activity>
 
         <meta-data
-            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
-            android:value="face" />
-        <!-- To use multiple models: android:value="face,model2,model3" -->
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
     </application>
 
 </manifest>

@@ -1,92 +1,34 @@
 {
   "project_info": {
-    "project_number": "372881944807",
-    "firebase_url": "https://face-detection-test-bc32b.firebaseio.com",
-    "project_id": "face-detection-test-bc32b",
-    "storage_bucket": "face-detection-test-bc32b.appspot.com"
+    "project_number": "321617971684",
+    "firebase_url": "https://pixer-d42c9.firebaseio.com",
+    "project_id": "pixer-d42c9",
+    "storage_bucket": "pixer-d42c9.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:372881944807:android:7483c24e5eb9a607317242",
+        "mobilesdk_app_id": "1:321617971684:android:376cb64ae97e0c0fc05ff1",
         "android_client_info": {
-          "package_name": "com.example.facedetection"
+          "package_name": "com.example.projectpixer"
         }
       },
       "oauth_client": [
         {
-          "client_id": "372881944807-fue36274hg35tbg8kg640b74re4oeet7.apps.googleusercontent.com",
+          "client_id": "321617971684-mhu1vvq1srnfibgnvbphprjko7ipfd8r.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyASyYxphWakQHpzlDPadwf9dyDCc8mYw-Y"
+          "current_key": "AIzaSyAD8j4tbW-5a3wkp9M02aBmTfJxnRD7IhY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "372881944807-fue36274hg35tbg8kg640b74re4oeet7.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:372881944807:android:12e44a44a0f9fdf0317242",
-        "android_client_info": {
-          "package_name": "com.example.facerecognition"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "372881944807-fue36274hg35tbg8kg640b74re4oeet7.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyASyYxphWakQHpzlDPadwf9dyDCc8mYw-Y"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "372881944807-fue36274hg35tbg8kg640b74re4oeet7.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:372881944807:android:c2e26ff6ce2e1182317242",
-        "android_client_info": {
-          "package_name": "com.example.textrecognition"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "372881944807-fue36274hg35tbg8kg640b74re4oeet7.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyASyYxphWakQHpzlDPadwf9dyDCc8mYw-Y"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "372881944807-fue36274hg35tbg8kg640b74re4oeet7.apps.googleusercontent.com",
+              "client_id": "321617971684-mhu1vvq1srnfibgnvbphprjko7ipfd8r.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
